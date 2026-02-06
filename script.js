@@ -28,7 +28,7 @@ let speed = 5;
 
 // Sound
 let audioCtx, analyser, dataArray;
-const jumpThreshold = 10;
+const jumpThreshold = 48;
 const doubleThreshold = 75;
 let lastJump = false;
 let lastDouble = false;
