@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Blink Runner</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="ui">
+  <div id="score">0</div>
+  <div id="controls">
+    <button id="startBtn">Start</button>
+    <button id="stopBtn" disabled>Stop</button>
+    <div id="status">Waiting to start</div>
+  </div>
+
+  <canvas id="game"></canvas>
+
+  <div id="overlay">
+    <h1>Game Over</h1>
+    <button id="restartBtn">Restart</button>
+
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/face_mesh/face_mesh.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
